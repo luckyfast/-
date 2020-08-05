@@ -1,5 +1,5 @@
 # HTML
 
-·head
+·head<br />
 ·body
 <hr />
