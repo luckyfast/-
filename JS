@@ -1,0 +1,37 @@
+//1. 一次声明两个变量
+
+let newname, name; 
+
+name = "John";
+
+newname = name;
+
+alert( newname ); // "John"
+
+var newname1, name1; 
+
+name1 = "John";
+
+newname1 = name1;
+
+alert( newname1 ); // "John"
+
+
+//2.声明常量
+
+const BRITHDAY = '18.04.1982';
+
+const age = someCode(birthday);
+
+
+//3.字符串
+let name = "Ilya";
+
+alert( `hello ${1}` ); // 1
+
+alert( `hello ${"name"}` ); //hello name
+
+alert( `hello ${name}` ); //hello Ilya
+
+
+//4.
