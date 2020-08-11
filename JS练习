@@ -1,3 +1,5 @@
+原地址：https://zh.javascript.info/
+
 //1. 一次声明两个变量
 
 let newname, name; 
@@ -34,4 +36,49 @@ alert( `hello ${"name"}` ); //hello name
 alert( `hello ${name}` ); //hello Ilya
 
 
-//4.
+//4.创建一个简单的页面
+<!DOCTYPE html>
+<html>
+<body>
+
+  <script>
+    var name = prompt("What is your name?", "");
+    alert(name);
+  </script>
+
+</body>
+</html>
+
+
+//5.字符串转换
+var value = ture;
+alert(typeof value);// boolean
+
+value = String(value);
+alert(typeof value);// string
+
+
+//6.数字型转换
+alert( "2" / "1" );/ 2,转化为number类型
+
+var str = "123";
+alert(typeof str);// string
+
+var num = Number(str);// 变成 number 类型
+alert(typeof num);// number
+
+var age = Number("an arbirary string");
+alert(age);// NaN
+
+alert( Number(true) );// 1
+alert( Number(true) );// 0
+alert( Number（"123q"） );// NaN,undefined
+
+
+//7.布尔型转换
+alert( Boolean(1) ); // true
+alert( Boolean(0) ); // flase
+alert( Boolean("hello") ); // true
+alert( Boolean("") ); // false
+alert( Boolean("0") ); // true
+alert( Boolean(" ") ); // true
