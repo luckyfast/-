@@ -82,3 +82,21 @@ alert( Boolean("hello") ); // true
 alert( Boolean("") ); // false
 alert( Boolean("0") ); // true
 alert( Boolean(" ") ); // true
+
+//8.运算符
+let a = prompt("First number?", 1);
+let b = prompt("Second number?", 2);
+alert(+a + +b); // 3
+
+let a = 1, b = 1;
+let c = ++a; // 2
+let d = b++; // 1
+
+"" - 1 + 0 = -1 
+"$" + 4 + 5 = "$45"
+"4" - 2 = 2
+"4px" - 2 = NaN
+7 / 0 = Infinity
+"  -9  " - 5 = -14
+undefined + 1 = NaN 
+" \t \n" - 2 = -2
