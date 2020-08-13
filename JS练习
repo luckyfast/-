@@ -100,3 +100,13 @@ let d = b++; // 1
 "  -9  " - 5 = -14
 undefined + 1 = NaN 
 " \t \n" - 2 = -2
+
+
+//9.值的比较
+5 > 4 → true
+"apple" > "pineapple" → false
+"2" > "12" → true
+undefined == null → true
+undefined === null → false
+null == "\n0\n" → false
+null === +"\n0\n" → false
