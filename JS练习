@@ -214,4 +214,122 @@ let message = (login == 'Employee') ? 'Hello' :
 '';
 
 
-//12.
+//12.逻辑运算符
+alert( null || 2 || undefined ); // 2
+
+alert( alert(1) || 2 || alert(3) ); // 1,2
+
+alert( 1 && null && 2 ); // null
+
+alert( alert(1) && alert(2) ); // 1,undefined
+
+alert( null || 2 && 3 || 4 ); // 3
+
+if (age >= 14 && age <= 90)
+
+if (!(age >= 14 && age <= 90))
+
+if (age < 14 || age > 90)
+
+let userName = prompt("Who's there?", '');
+
+
+if (userName == 'Admin') {
+
+  let pass = prompt('Password?', '');
+
+  if (pass == 'TheMaster') {
+    alert( 'Welcome!' );
+  } else if (pass == '' || pass == null) {
+    alert( 'Canceled' );
+  } else {
+    alert( 'Wrong password' );
+  }
+
+} else if (userName == '' || userName == null) {
+  alert( 'Canceled' );
+} else {
+  alert( "I don't know you" );
+}
+
+
+//13.质数
+var num = prompt('请输入一个大于1的整数:');
+
+            //判断这个值是否合法
+            if (num <= 1) {
+                alert('该值不合法！');
+            } else {
+                //先用flag标志位，来保存当前的数的状态
+                //默认当前num是质数
+                var flag = true;
+
+                //判断num是否是质数
+                //获取2-num之间的数
+                for (var i = 2; i < num; i++) {
+                    //console.log(i);
+                    //判断num是否能被i整除
+                    if (num % i == 0) {
+                        //一旦发现：如果num能被i整除，则说明num一定不是质数，
+                        //此时：设置flag为false，然后跳出 for 循环
+                        flag = false;
+                        break;
+                    }
+                }
+
+                //如果num是质数则输出
+                if (flag) {
+                    alert(num + '是质数！！！');
+                } else {
+                    alert('这个不是质数');
+                }
+            }
+
+
+//14.质数
+//打印2-100之间所有的数
+            for (var i = 2; i <= 100; i++) {
+                //创建一个布尔值，用来保存结果，默认i是质数
+                var flag = true;
+
+                //判断i是否是质数
+                //获取到2-i之间的所有的数
+                for (var j = 2; j < i; j++) {
+                    //判断i是否能被j整除
+                    if (i % j == 0) {
+                        //如果进入判断则证明i不是质数,修改flag值为false
+                        flag = false;
+                    }
+                }
+
+                //如果是质数，则打印i的值
+                if (flag) {
+                    console.log(i);
+                }
+            }
+//15.乘法
+<style type="text/css">
+            body {
+                width: 2000px;
+            }
+
+            span {
+                display: inline-block;
+                width: 80px;
+            }
+        </style>
+        <script type="text/javascript">
+           
+            //创建外层循环，用来控制乘法表的高度
+            for (var i = 1; i <= 9; i++) {
+                //创建一个内层循环来控制图形的宽度
+                for (var j = 1; j <= i; j++) {
+                    document.write('<span>' + j + '*' + i + '=' + i * j + '</span>');
+                }
+
+                //输出一个换行
+                document.write('<br />');
+            }
+        </script>
+        
+//16.        
