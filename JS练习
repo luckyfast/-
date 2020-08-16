@@ -231,8 +231,22 @@ if (!(age >= 14 && age <= 90))
 
 if (age < 14 || age > 90)
 
-let userName = prompt("Who's there?", '');
+// 执行。
+// -1 || 0 的结果为 -1，真值
+if (-1 || 0) alert( 'first' );
 
+// 不执行。
+// -1 && 0 = 0，假值
+if (-1 && 0) alert( 'second' );
+
+// 执行
+// && 运算的优先级比 || 高
+// 所以 -1 && 1 先执行，给出如下运算链：
+// null || -1 && 1  ->  null || 1  ->  1
+if (null || -1 && 1) alert( 'third' );
+
+
+let userName = prompt("Who's there?", '');
 
 if (userName == 'Admin') {
 
