@@ -346,4 +346,9 @@ var num = prompt('请输入一个大于1的整数:');
             }
         </script>
         
-//16.        
+//16.循环        
+let i = 3;
+
+while (i) {
+  alert( i-- );
+} // 1
