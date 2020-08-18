@@ -368,3 +368,8 @@ let i = 0;
 while (++i < 5) alert( i ); // 1,2,3,4
 
 //19.循环
+let num;
+
+do {
+  num = prompt("Enter a number greater than 100?", 0);
+} while (num <= 100 && num);
