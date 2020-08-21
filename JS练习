@@ -1,6 +1,25 @@
 原地址：https://zh.javascript.info/
 
-//23.
+//24.箭头函数
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+ask(
+  "Do you agree?",
+  () => alert("You agreed."),
+  () => alert("You canceled the execution.")
+);
+
+//23.函数表达式
+let age = prompt("What is your age?", 18);
+
+let welcome = (age < 18) ?
+  function() { alert("Hello!"); } :
+  function() { alert("Greetings!"); };
+
+welcome(); // 现在可以了
 
 //1. 一次声明两个变量
 
