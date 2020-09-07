@@ -16,3 +16,8 @@ HTML5新增的表单类型：<email> <tel> <url> <number> <search> <range> <colo
 
 HTML5表单属性：<placeholder> <autofocus> <multiple> <autocomplete> <form> <novalidate> <required> <pattern>
 
+HTML5表单事件：<oninput> <oninvalid>
+
+多媒体：音频 <audio> ，视频 <video> 
+
+DOM操作
