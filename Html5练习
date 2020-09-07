@@ -13,3 +13,6 @@ HTML5新增语义标签：<section> <article> <header> <footer> <nav> <aside> <f
 IE8以下浏览器不支持HTML5和CSS3，需要引进html5shiv.js文件。
 
 HTML5新增的表单类型：<email> <tel> <url> <number> <search> <range> <color> <time> <date> <datetime> <month> <week>
+
+HTML5表单属性：<placeholder> <autofocus> <multiple> <autocomplete> <form> <novalidate> <required> <pattern>
+
