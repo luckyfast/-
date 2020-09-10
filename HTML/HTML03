@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html网页03test</title>
+</head>
+    <body>
+        <!-- 超链接测试 -->
+        <h3>超链接跳转</h3>
+        <a href="https://taobao.com" title="跳转到淘宝网" target="_top">点我跳转到超链接</a>
+        
+        <br />
+
+        <!-- 注册页面跳转 -->
+        <a href="html网页03注册页面.html" title="跳转到注册页面">点我注册</a><br>
+
+        <!-- 登陆页面跳转 -->
+        <a href="html网页03登陆页面.html" title="跳转到登陆页面">点我登陆</a>
+
+        <!-- 内嵌框架举例 -->
+        <hr />
+        <a href="html网页03登陆页面.html" target="myframe">页面1</a><br>
+        <a href="html网页02商城.html" target="myframe">页面2</a><br>
+        <a href="html网页03注册页面.html" target="myframe">页面3</a><br>
+
+        <iframe src="html网页01.html" width="400" height="400" name="myframe"></iframe>
+        <br>
+        
+        <p>这个页面到头啦！</p>
+    </body>
+</html>
