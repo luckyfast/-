@@ -1,2 +1,8 @@
-CSS
-
+//1.利用CSS画个三角形
+div{
+  width: 0px;
+  height: 0px;
+  border: 50px soild white;
+  border-top-color: red;
+  border-botttom: none;
+}
