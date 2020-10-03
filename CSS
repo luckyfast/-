@@ -1,3 +1,21 @@
+//5.下一个兄弟选择器
+<style type="text/css">
+    h3 + p {
+        color: red;
+    }
+</style>
+
+//4.序选择器
+<style type="text/css">
+    ul li:first-child {
+        color: red;
+    }
+</style>
+
+//3.子代选择器
+div > p {
+    color: red;
+}
 
 //2.
 <!DOCTYPE html>
