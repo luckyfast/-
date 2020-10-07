@@ -1,3 +1,63 @@
+//10.overflow:hidden;用于浮动的清除
+li{
+    overflow:hidden;
+}
+
+//9.让第一个div撑出高度
+<div>
+	<p></p>
+	<p></p>
+	<p></p>
+	<div class="cl h10"></div>
+</div>
+
+<div>
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
+
+//8.隔开两个浮动实现浮动清除
+<div>
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
+
+<div class="cl h10"></div>
+
+<div>
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
+
+//7.给盒子增加clear:both实现浮动清除
+<div>
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
+
+<div>   //clear:both;
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
+
+//6.利用加高实现浮动清除
+<div>     //设置height
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
+
+<div>    //设置height
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
+
 //5.下一个兄弟选择器
 <style type="text/css">
     h3 + p {
