@@ -1,3 +1,24 @@
+//13.
+
+//12.IE6的双倍margin，连续浮动的元素带有相同方向的margin时，出现双重margin
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	
+	float: left;
+	margin-right: 40px;//margin方向与浮动方向相反
+	
+	<li class="no1"></li>
+	ul li.no1{
+	_margin-left:20px;
+	}//单独给队首的元素，写一个一半的margin
+
+//11.标准流的盒子，有明确的width，使用margin:0 auto居中
+margin:0 auto;    //让这个div自己在大容器中的水平方向上居中。
+text-align: center;  //让这个div内部的文本居中。
+
 //10.overflow:hidden;用于浮动的清除
 li{
     overflow:hidden;
